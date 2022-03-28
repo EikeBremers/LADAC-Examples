@@ -1,0 +1,4 @@
+Known Issues:
+1. The Traj Functions use sparse matrices which do not work in Ardupilot.
+Kown fix: Change ll. 82f in Function polyInterpolation from sparse to zeros
+2. In the MATLAB generated code the Struct sections must be renamed to section.
